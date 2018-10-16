@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1539446202525" ID="ID_1143506264" MODIFIED="1539446210760" TEXT="Lap trinh huong doi tuong OOP">
-<node CREATED="1539446687263" ID="ID_332647996" MODIFIED="1539446695858" POSITION="right" TEXT="L&#x1ead;p tr&#xec;nh chia l&#xe0;m c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng &#x111;&#x1ec3; x&#x1eed; l&#xfd;"/>
+<node CREATED="1539446687263" ID="ID_332647996" MODIFIED="1539658356976" POSITION="right" TEXT="L&#x1ead;p tr&#xec;nh chia l&#xe0;m c&#xe1;c Object &#x111;&#x1ec3; x&#x1eed; l&#xfd;"/>
+<node CREATED="1539658357635" ID="ID_1492783503" MODIFIED="1539658372149" POSITION="right" TEXT="As only function cannot handle a long long code"/>
 <node CREATED="1539567157380" ID="ID_1215217540" MODIFIED="1539567164036" POSITION="right" TEXT="&#x1af;u &#x111;i&#x1ec3;m">
 <node CREATED="1539567165419" ID="ID_572382782" MODIFIED="1539567189818" TEXT="Kh&#x1eaf;c ph&#x1ee5;c y&#x1ebf;u &#x111;i&#x1ec3;m c&#x1ee7;a PPLT tr&#x1b0;&#x1edb;c &#x111;&#xf3;"/>
 <node CREATED="1539567192179" ID="ID_1790736206" MODIFIED="1539567210986" TEXT="D&#x1ec5; d&#xe0;ng qu&#x1ea3;n l&#xfd; code khi c&#xf3; s&#x1ef1; thay &#x111;&#x1ed5;i ch&#x1b0;&#x1a1;ng tr&#xec;nh"/>
@@ -303,8 +304,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -335,8 +335,7 @@
       int hoc::count;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -362,8 +361,7 @@
       &#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
