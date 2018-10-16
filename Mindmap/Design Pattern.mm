@@ -197,18 +197,67 @@
 <node CREATED="1539567017071" ID="ID_1544160670" MODIFIED="1539567018238" POSITION="right" TEXT="Link">
 <node CREATED="1539567018741" ID="ID_172062503" LINK="https://viblo.asia/p/design-pattern-tai-sao-phai-hoc-design-pattern-ORNZq9OGZ0n" MODIFIED="1539567018741" TEXT="https://viblo.asia/p/design-pattern-tai-sao-phai-hoc-design-pattern-ORNZq9OGZ0n"/>
 </node>
-<node CREATED="1539577632474" ID="ID_1799997058" MODIFIED="1539578055479" POSITION="left" TEXT="Ph&#xe2;n lo&#x1ea1;i">
-<node CREATED="1539577103866" ID="ID_676444599" MODIFIED="1539577252917" TEXT="Nh&#xf3;m kh&#x1edf;i t&#x1ea1;o (Creational Patterns)">
-<node CREATED="1539577154434" ID="ID_897843293" MODIFIED="1539577168225" TEXT="Gi&#xfa;p trong vi&#x1ec7;c kh&#x1edf;i t&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng"/>
+<node CREATED="1539577632474" ID="ID_1799997058" MODIFIED="1539683629541" POSITION="left" TEXT="Ph&#xe2;n lo&#x1ea1;i">
+<node CREATED="1539577103866" ID="ID_676444599" MODIFIED="1539683521787" TEXT="Nh&#xf3;m kh&#x1edf;i t&#x1ea1;o (Creational Patterns)">
+<node COLOR="#ff0003" CREATED="1539577154434" ID="ID_897843293" MODIFIED="1539673096217" TEXT="Gi&#xfa;p trong vi&#x1ec7;c kh&#x1edf;i t&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng ( m&#xe0; kh&#xf4;ng nh&#xec;n th&#x1ea5;y t&#x1eeb; kh&#xf3;a new)"/>
 <node CREATED="1539577179194" ID="ID_1972854664" MODIFIED="1539577185401" TEXT="9 m&#x1eab;u design">
 <node CREATED="1539577153451" ID="ID_1062778600" MODIFIED="1539577153451" TEXT="Abstract Factory."/>
-<node CREATED="1539577153452" ID="ID_817208056" MODIFIED="1539577153452" TEXT="Builder."/>
-<node CREATED="1539577153452" ID="ID_1375418942" MODIFIED="1539577153452" TEXT="Factory Method."/>
+<node CREATED="1539577153452" ID="ID_817208056" MODIFIED="1539678409002" TEXT="Builder.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539681108457" FOLDED="true" ID="ID_898092502" MODIFIED="1539681788497" TEXT="Purpose">
+<node CREATED="1539681488841" ID="ID_1422230083" MODIFIED="1539681504584" TEXT="T&#x1ea1;o c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng ph&#x1ee9;c t&#x1ea1;p th&#xf4;ng qua c&#xe2;u l&#x1ec7;nh &#x111;&#x1a1;n gi&#x1ea3;n"/>
+<node CREATED="1539681505250" ID="ID_1551274972" MODIFIED="1539681696671" TEXT="Vd X&#xe2;y ph&#xf2;ng, T&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng x&#xe2;y ph&#xf2;ng v&#x1edb;i &#x111;&#xe2;y &#x111;&#x1ee7; ch&#x1ee9;c n&#x103;ng."/>
+<node CREATED="1539681650873" ID="ID_1086732901" MODIFIED="1539681711631" TEXT="Sau &#x111;&#xf3; x&#xe2;y ph&#xf2;ng ng&#x1ee7; hay ph&#xf2;ng kh&#xe1;ch ch&#x1ec9; c&#x1ea7;n &quot;d&#x1ef1;a&quot; v&#xe0;o &#x111;&#xf3;"/>
+</node>
+<node CREATED="1539681114816" FOLDED="true" ID="ID_595465923" MODIFIED="1539681672433" TEXT="UML">
+<node CREATED="1539681116487" MODIFIED="1539681116487">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_7964755322996160875.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1539577153452" FOLDED="true" ID="ID_1375418942" MODIFIED="1539676172170" TEXT="Factory Method.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539674551537" ID="ID_1171709380" MODIFIED="1539674555187" TEXT="Purpose">
+<node CREATED="1539674560298" ID="ID_1846423176" MODIFIED="1539674681652" TEXT="Create and extend object"/>
+<node CREATED="1539675684618" ID="ID_674684309" MODIFIED="1539675869018" TEXT="1 object wrap all other object"/>
+<node CREATED="1539675893025" ID="ID_1586609572" MODIFIED="1539675902088" TEXT="1 nh&#xe0; m&#xf4;i gi&#x1edb;i b&#xe1;n xe"/>
+</node>
+<node CREATED="1539675527385" ID="ID_59239463" MODIFIED="1539675528881" TEXT="UML">
+<node CREATED="1539675585989" MODIFIED="1539675585989">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_1069579384856583823.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539675679874" ID="ID_19464220" MODIFIED="1539675681344" TEXT="Code">
+<node CREATED="1539675965249" ID="ID_896123780" MODIFIED="1539675972779" TEXT="Create class Factory">
+<node CREATED="1539675980033" ID="ID_1741595405" MODIFIED="1539676077472" TEXT="Have interface Viewcar as method to choose car "/>
+</node>
+<node CREATED="1539676023401" ID="ID_927441753" MODIFIED="1539676159003" TEXT="Boss call object CarFactory">
+<node CREATED="1539676159458" ID="ID_437724944" MODIFIED="1539676169136" TEXT="and want to call each specific car in type"/>
+</node>
+</node>
+</node>
 <node CREATED="1539577153452" ID="ID_1779517885" MODIFIED="1539577153452" TEXT="Multiton."/>
 <node CREATED="1539577153452" ID="ID_139472484" MODIFIED="1539577153452" TEXT="Pool."/>
 <node CREATED="1539577153452" ID="ID_1655713900" MODIFIED="1539577153452" TEXT="Prototype."/>
 <node CREATED="1539577153452" ID="ID_1026489212" MODIFIED="1539577153452" TEXT="Simple Factory."/>
-<node CREATED="1539577153453" ID="ID_321923435" MODIFIED="1539577153453" TEXT="Singleton.">
+<node CREATED="1539577153453" FOLDED="true" ID="ID_321923435" MODIFIED="1539673913658" TEXT="Singleton.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539662384329" ID="ID_1655093514" MODIFIED="1539662386112" TEXT="Purpose">
 <node CREATED="1539658917176" ID="ID_429810213" MODIFIED="1539661763115" TEXT="1 object of 1class throughout your code">
 <font NAME="SansSerif" SIZE="12"/>
@@ -229,6 +278,16 @@
 <node CREATED="1539661463961" ID="ID_993562425" MODIFIED="1539661496359" TEXT="private create object and constructor with exactly we want"/>
 </node>
 </node>
+<node CREATED="1539673891182" ID="ID_1667786516" MODIFIED="1539673891182">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_3349029321278913461.jpeg" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1539660691497" ID="ID_240447245" MODIFIED="1539660692928" TEXT="Link">
 <node CREATED="1539660695458" ID="ID_233952838" MODIFIED="1539660696249" TEXT="http://www.yolinux.com/TUTORIALS/C++Singleton.html"/>
@@ -238,11 +297,13 @@
 </node>
 </node>
 <node CREATED="1539577196250" ID="ID_326765291" MODIFIED="1539577203984" TEXT="Nh&#xf3;m c&#x1ea5;u tr&#xfa;c (Structural)">
-<node CREATED="1539577206810" ID="ID_1611259358" MODIFIED="1539577216593" TEXT="Gi&#xfa;p thi&#x1ebf;p l&#x1ee5;c, &#x111;&#x1ecb;nh ngh&#x129;a quan h&#x1ec7; gi&#x1eef;a c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng"/>
+<node COLOR="#ff0003" CREATED="1539577206810" ID="ID_1611259358" MODIFIED="1539673091917" TEXT="Gi&#xfa;p thi&#x1ebf;p l&#x1ead;p, &#x111;&#x1ecb;nh ngh&#x129;a quan h&#x1ec7; gi&#x1eef;a c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng"/>
 <node CREATED="1539577224538" ID="ID_1183176530" MODIFIED="1539577229617" TEXT="11 m&#x1eab;u design">
-<node CREATED="1539577230044" ID="ID_1390288537" MODIFIED="1539577230044" TEXT="Adapter/ Wrapper.">
+<node CREATED="1539577230044" FOLDED="true" ID="ID_1390288537" MODIFIED="1539673784497" TEXT="Adapter/ Wrapper.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539663687980" ID="ID_1994475336" MODIFIED="1539663689609" TEXT="Purpose">
 <node CREATED="1539656859025" ID="ID_105433463" MODIFIED="1539663682598" TEXT="Code upgrade or new requirement, use new object that have some different with old one"/>
+<node CREATED="1539665829842" ID="ID_489050702" MODIFIED="1539665836904" TEXT="Adapt code work with other code"/>
 <node CREATED="1539663739307" ID="ID_1408970318" MODIFIED="1539663739307">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -254,23 +315,159 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1539664120681" ID="ID_627587022" MODIFIED="1539664121663" TEXT="How">
+<node CREATED="1539664600702" ID="ID_1238120770" MODIFIED="1539664600702" TEXT="Convert the interface of a class">
+<node CREATED="1539664600703" ID="ID_1317524690" MODIFIED="1539664600703" TEXT="into another interface the client expects"/>
+</node>
+<node CREATED="1539664122553" ID="ID_1699785794" MODIFIED="1539664362139" TEXT="Get 2 methods and extend to 4"/>
+<node CREATED="1539664165327" ID="ID_1223749547" MODIFIED="1539664165327">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_1138111335872217421.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1539664975963" ID="ID_1010246549" MODIFIED="1539664980509" TEXT="Create object adapter">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539665082003" ID="ID_243793027" MODIFIED="1539665179362" TEXT="Get object from Ace object by constructor"/>
+<node CREATED="1539665278778" ID="ID_1021915273" MODIFIED="1539665283346" TEXT="recreate attribute">
+<node CREATED="1539665111547" ID="ID_1830903162" MODIFIED="1539665141632" TEXT="create attribute that is the one different between Ace and Acme">
+<node CREATED="1539665144577" ID="ID_1188195690" MODIFIED="1539665146505" TEXT="first name"/>
+<node CREATED="1539665146756" ID="ID_1514239785" MODIFIED="1539665148817" TEXT="last name"/>
+</node>
+<node CREATED="1539665156970" ID="ID_1546795795" MODIFIED="1539665185368" TEXT="Put the update in constructor"/>
+</node>
+<node CREATED="1539665285890" ID="ID_1184767998" MODIFIED="1539665310159" TEXT="reuse method">
+<node CREATED="1539665294565" ID="ID_1518339361" MODIFIED="1539665302657" TEXT="Actually use method of Acme"/>
+</node>
+<node CREATED="1539673630932" MODIFIED="1539673630932">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_1908273974737994733.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539673636209" ID="ID_286079618" MODIFIED="1539673642885" TEXT="Class adapter">
+<node CREATED="1539673650687" MODIFIED="1539673650687">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_9088912121895790290.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1539577230045" ID="ID_1524421247" MODIFIED="1539577230045" TEXT="Bridge."/>
-<node CREATED="1539577230045" ID="ID_1507259719" MODIFIED="1539577230045" TEXT="Composite."/>
+<node CREATED="1539577230045" FOLDED="true" ID="ID_1507259719" MODIFIED="1539683632220" TEXT="Composite. (h&#x1ed7;n h&#x1ee3;p)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539682463536" ID="ID_909377060" MODIFIED="1539682465628" TEXT="Purpose">
+<node CREATED="1539682808977" ID="ID_1621361669" MODIFIED="1539682820889" TEXT="M&#x1ea1;ch &#x111;i&#x1ec7;n c&#xf3; nhi&#x1ec1;u m&#x1ea1;ch con c&#xf3; c&#x1ea5;u tr&#xfa;c gi&#x1ed1;ng nhau"/>
+<node CREATED="1539682821145" ID="ID_833815098" MODIFIED="1539682848552" TEXT="&#x110;&#x1ec3; t&#xed;nh &#x111;i&#x1ec7;n tr&#x1edf; to&#xe0;n m&#x1ea1;ch, l&#xe0; t&#x1ed5;ng &#x111;i&#x1ec7;n tr&#x1edf; c&#x1ee7;a c&#xe1;c linh ki&#x1ec7;n v&#xe0; t&#x1ed5;ng c&#x1ee7;a c&#xe1;c m&#x1ea1;ch con"/>
+<node CREATED="1539682848832" ID="ID_1496277993" MODIFIED="1539682863762" TEXT="C&#x1eab;n x&#xe2;y d&#x1ef1;ng m&#x1eab;u chung c&#x1ee7;a c&#xe1;c m&#x1ea1;ch (con v&#xe0; t&#x1ed5;ng)"/>
+</node>
+<node CREATED="1539682926113" ID="ID_655270020" MODIFIED="1539682927511" TEXT="How">
+<node CREATED="1539682928321" ID="ID_343526949" MODIFIED="1539682933810" TEXT="Create tree structure"/>
+</node>
+<node CREATED="1539682702001" ID="ID_400878300" MODIFIED="1539682702938" TEXT="UML">
+<node CREATED="1539682703577" ID="ID_1266854198" MODIFIED="1539682703577">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_2789487347384526786.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1539577230046" ID="ID_443114380" MODIFIED="1539577230046" TEXT="Data Mapper."/>
-<node CREATED="1539577230046" ID="ID_1881253594" MODIFIED="1539577230046" TEXT="Decorator."/>
+<node CREATED="1539577230046" FOLDED="true" ID="ID_1881253594" MODIFIED="1539675359472" TEXT="Decorator.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539674551537" ID="ID_1824711538" MODIFIED="1539674555187" TEXT="Purpose">
+<node CREATED="1539674560298" ID="ID_981248850" MODIFIED="1539674565544" TEXT="Create and extend object"/>
+<node CREATED="1539674697745" ID="ID_505243828" MODIFIED="1539674698409" TEXT="by add additional classes "/>
+</node>
+<node CREATED="1539674805613" ID="ID_1194138977" MODIFIED="1539674806857" TEXT="UML">
+<node CREATED="1539675157807" MODIFIED="1539675157807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_6965962126537078157.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539674809385" ID="ID_1644821104" MODIFIED="1539674812467" TEXT="Sample code">
+<node CREATED="1539674932545" ID="ID_1750076512" MODIFIED="1539675009361" TEXT="Create class decorator inherit core class"/>
+<node CREATED="1539675009673" ID="ID_1077136163" MODIFIED="1539675219834" TEXT="Create attribute with component object"/>
+<node CREATED="1539675220352" ID="ID_1852742793" MODIFIED="1539675333075" TEXT="Addtition function become an object and can change "/>
+</node>
+</node>
 <node CREATED="1539577230046" ID="ID_1609154841" MODIFIED="1539577230046" TEXT="Dependency Injection."/>
-<node CREATED="1539577230046" ID="ID_1260739274" MODIFIED="1539663362784" TEXT="Facade.(b&#x1ec1; m&#x1eb7;t)">
+<node CREATED="1539577230046" FOLDED="true" ID="ID_1260739274" MODIFIED="1539681804658" TEXT="Facade.(b&#x1ec1; m&#x1eb7;t, m&#x1eb7;t ti&#x1ec1;n)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539663455097" ID="ID_1642826313" MODIFIED="1539663461721" TEXT="Purpose">
-<node CREATED="1539663462305" ID="ID_1649547706" MODIFIED="1539663462305" TEXT=""/>
+<node CREATED="1539663462305" ID="ID_1649547706" MODIFIED="1539665855153" TEXT="wrapper that make the original code easier to deal with"/>
+<node CREATED="1539666014800" ID="ID_991520372" MODIFIED="1539666025489" TEXT="make OOP interface easier to use"/>
+</node>
+<node CREATED="1539673325211" ID="ID_1060689142" MODIFIED="1539673326416" TEXT="UML">
+<node CREATED="1539673327277" ID="ID_1362911636" MODIFIED="1539673327277">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_462985310802338967.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1539663467497" ID="ID_704673242" MODIFIED="1539663468262" TEXT="How">
-<node CREATED="1539663469168" ID="ID_269714602" MODIFIED="1539663480787" TEXT="Simplifiy the expose method of object or class"/>
+<node CREATED="1539665944964" ID="ID_614219736" MODIFIED="1539665993325" TEXT="print method instead of">
+<node CREATED="1539665966938" ID="ID_1434699150" MODIFIED="1539665976008" TEXT="start machine"/>
+<node CREATED="1539665976273" ID="ID_911056768" MODIFIED="1539665978827" TEXT="warm up"/>
+<node CREATED="1539665979056" ID="ID_142522341" MODIFIED="1539665982004" TEXT="get paper"/>
+<node CREATED="1539665982609" ID="ID_1313049560" MODIFIED="1539665985346" TEXT="get data"/>
+<node CREATED="1539665986105" ID="ID_1887890239" MODIFIED="1539665989271" TEXT="clear machine"/>
+</node>
+<node CREATED="1539663469168" ID="ID_269714602" MODIFIED="1539663480787" TEXT="Simplifiy the expose method of object or class">
 <node CREATED="1539663481857" ID="ID_1237276499" MODIFIED="1539663489850" TEXT="Make easier to work with that object or class"/>
+</node>
+<node CREATED="1539670749378" ID="ID_1587113022" MODIFIED="1539670750877" TEXT="Code">
+<node CREATED="1539670751658" ID="ID_1657190235" MODIFIED="1539670770302" TEXT="Create new class facade">
+<node CREATED="1539670771073" ID="ID_1461246382" MODIFIED="1539670799140" TEXT="attribute oldclass object"/>
+<node CREATED="1539670788434" ID="ID_1648287668" MODIFIED="1539670825267" TEXT="New method: print">
+<node CREATED="1539670804050" ID="ID_971560679" MODIFIED="1539670814801" TEXT="collect of all method"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1539670408260" ID="ID_1928725318" MODIFIED="1539670409898" TEXT="Drawback">
+<node CREATED="1539670410538" ID="ID_1766439654" MODIFIED="1539670414985" TEXT="Add new layer"/>
 </node>
 </node>
 <node CREATED="1539577230047" ID="ID_1440831353" MODIFIED="1539577230047" TEXT="Fluent Interface."/>
-<node CREATED="1539577230047" ID="ID_1178408777" MODIFIED="1539661654500" TEXT="Flyweight (ru&#x1ed3;i)">
+<node CREATED="1539577230047" FOLDED="true" ID="ID_1178408777" MODIFIED="1539681843193" TEXT="Flyweight (ru&#x1ed3;i)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539662392313" ID="ID_1838279349" MODIFIED="1539662393890" TEXT="Purpose">
 <node CREATED="1539658933265" ID="ID_470784441" MODIFIED="1539661601639" TEXT="Create 1 object, but the code feel like multiple objects"/>
 <node CREATED="1539661735610" ID="ID_242573107" MODIFIED="1539661755531" TEXT="whittle smaller set of generic objects, and configure at runtime"/>
@@ -299,7 +496,7 @@
 </node>
 </node>
 <node CREATED="1539577230047" ID="ID_1291707112" MODIFIED="1539577230047" TEXT="Registry."/>
-<node CREATED="1539577230048" ID="ID_569471057" MODIFIED="1539577230048" TEXT="Proxy">
+<node CREATED="1539577230048" FOLDED="true" ID="ID_569471057" MODIFIED="1539674434112" TEXT="Proxy">
 <node CREATED="1539657251929" ID="ID_116041750" MODIFIED="1539657306575" TEXT="Translation"/>
 <node CREATED="1539657352021" MODIFIED="1539657352021">
 <richcontent TYPE="NODE"><html>
@@ -309,19 +506,100 @@
   <body>
     <img src="Design Pattern_7548262132237589552.jpeg" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1539577235306" ID="ID_1480734821" MODIFIED="1539683443720" TEXT="Nh&#xf3;m &#x1ee9;ng x&#x1eed; (Behavioral Patterns)">
+<node COLOR="#ff0600" CREATED="1539577273458" ID="ID_557932133" MODIFIED="1539673112786" TEXT="T&#x1ead;p trung th&#x1ef1;c hi&#x1ec7;n h&#xe0;nh v&#x1ecb; c&#x1ee7;a object"/>
+<node CREATED="1539577296666" ID="ID_1761735171" MODIFIED="1539577301529" TEXT="12 m&#x1eab;u design">
+<node CREATED="1539577301935" FOLDED="true" ID="ID_461245444" MODIFIED="1539678320146" TEXT="Chain Of Responsibilities.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539676437057" ID="ID_1360470541" MODIFIED="1539676438721" TEXT="Purpose">
+<node CREATED="1539677619345" ID="ID_1601941189" MODIFIED="1539677636306" TEXT="Th&#x1ef1;c hi&#x1ec7;n 1 chu&#x1ed7;i c&#xe1;c t&#xe1;c v&#x1ee5; c&#xf3; tr&#xec;nh t&#x1ef1;, 1 t&#xe1;c v&#x1ee5; l&#xe0; 1 class">
+<node CREATED="1539677677633" ID="ID_1504236115" MODIFIED="1539677678909" TEXT="Method">
+<node CREATED="1539677643548" ID="ID_819931078" MODIFIED="1539677643548" TEXT="Mua b&#x1ed9;t --&gt; Nh&#xe0;o b&#x1ed9;t --&gt; N&#x1b0;&#x1edb;ng b&#xe1;nh --&gt; Nh&#x1ead;u"/>
+</node>
+<node CREATED="1539677679792" ID="ID_681731777" MODIFIED="1539677719720" TEXT="Class">
+<node CREATED="1539677697893" MODIFIED="1539677697893" TEXT="ph&#x1ee5; vi&#x1ec7;c"/>
+<node CREATED="1539677703954" MODIFIED="1539677703954" TEXT="ph&#x1ee5; b&#x1ebf;p"/>
+<node CREATED="1539677709815" MODIFIED="1539677709815" TEXT="&#x110;&#x1ea7;u b&#x1ebf;p"/>
+<node CREATED="1539677715516" MODIFIED="1539677715516" TEXT="Th&#x1ef1;c kh&#xe1;ch"/>
+</node>
+</node>
+<node CREATED="1539676439905" ID="ID_539094091" MODIFIED="1539676480439" TEXT="Notification go from one object to next until object is found that can handle notification"/>
+<node CREATED="1539676558546" ID="ID_780797734" MODIFIED="1539676565735" TEXT="Register the same as Observer"/>
+<node CREATED="1539676566145" ID="ID_478816125" MODIFIED="1539676574466" TEXT="WHen notification is different">
+<node CREATED="1539676608614" ID="ID_1968491971" MODIFIED="1539676608614">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_7896664752962520057.jpeg" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1539676491504" ID="ID_1777718318" MODIFIED="1539676492476" TEXT="UML">
+<node CREATED="1539677193138" MODIFIED="1539677193138">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_6968060348924964218.jpeg" />
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1539577235306" ID="ID_1480734821" MODIFIED="1539577256160" TEXT="Nh&#xf3;m &#x1ee9;ng x&#x1eed; (Behavioral Patterns)">
-<node CREATED="1539577273458" ID="ID_557932133" MODIFIED="1539577280978" TEXT="T&#x1ead;p trung th&#x1ef1;c hi&#x1ec7;n method c&#x1ee7;a object"/>
-<node CREATED="1539577296666" ID="ID_1761735171" MODIFIED="1539577301529" TEXT="12 m&#x1eab;u design">
-<node CREATED="1539577301935" ID="ID_461245444" MODIFIED="1539577301935" TEXT="Chain Of Responsibilities."/>
+</node>
+<node CREATED="1539677807809" ID="ID_1655582822" MODIFIED="1539677810259" TEXT="Sample code">
+<node CREATED="1539677862573" ID="ID_1933455253" MODIFIED="1539677869526" TEXT="Sample nayf c&#x169;ng h&#x1a1;i b&#x1ecb; ph&#x1ee9;c t&#x1ea1;p"/>
+<node CREATED="1539677880337" ID="ID_481847330" MODIFIED="1539677911752" TEXT="Th&#x1ef1;c hi&#x1ec7;n 1 chu&#x1ed7;i h&#xe0;nh &#x111;&#x1ed9;ng m&#x103;t xichs b&#x1eb1;ng c&#xe1;ch ch&#x1ec9; ra h&#xe0;nh &#x111;&#x1ed9;ng n&#xe0;o ti&#xea;p theo"/>
+<node CREATED="1539677878504" ID="ID_727071274" MODIFIED="1539677879143" TEXT="http://sinhvienluoi.blogspot.com/2012/09/chain-of-responsibility-pattern.html"/>
+</node>
+</node>
 <node CREATED="1539577301936" ID="ID_484887082" MODIFIED="1539577301936" TEXT="Command."/>
-<node CREATED="1539577301937" ID="ID_1343813616" MODIFIED="1539577301937" TEXT="Iterator."/>
-<node CREATED="1539577301937" ID="ID_1245961888" MODIFIED="1539656924542" TEXT="Mediator.">
+<node CREATED="1539577301937" FOLDED="true" ID="ID_1343813616" MODIFIED="1539682557097" TEXT="Iterator (bi&#x1ebf;n l&#x1eb7;p).">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539682046400" ID="ID_79214425" MODIFIED="1539682048882" TEXT="Purpose">
+<node CREATED="1539682049304" ID="ID_1149022826" MODIFIED="1539682077770" TEXT="C&#xe1;ch th&#x1ee9;c truy c&#x1ead;p c&#xe1;c ph&#x1ea7;n t&#x1eed; c&#x1ee7;a t&#x1ead;p h&#x1ee3;p m&#xe0; kh&#xf4;ng c&#x1ea7;n hi&#x1ec3;u chi ti&#x1ebf;t b&#xea;n trong"/>
+<node CREATED="1539682264761" ID="ID_117748053" MODIFIED="1539682281337" TEXT="Vd d&#xf9;ng list, sort, Map &#x111;&#x1ec3; trung c&#x1ead;p v&#xe0;o danh s&#xe1;ch ng l&#xe3;nh l&#x1b0;&#x1a1;ng theo th&#xe1;ng v&#xe0; theo gi&#x1edd;"/>
+<node CREATED="1539682286977" ID="ID_1451646750" MODIFIED="1539682293248" TEXT="Xu&#x1ea5;t ra s&#x1ed1; ti&#x1ec1;n ki&#x1ebf;m t&#x1b0;&#x1ee3;ng h&#xe0;ng th&#xe1;ng">
+<node CREATED="1539682300096" ID="ID_1912739623" MODIFIED="1539682311001" TEXT="Earning kh&#xe1;c nhau gi&#x1eef;a 2 object n&#xe0;y"/>
+</node>
+<node CREATED="1539682413072" ID="ID_886267431" MODIFIED="1539682437156" TEXT="T&#x1ea1;o 1 object iterator x&#x1eed; l&#xfd; vi&#x1ec7;c xem, next"/>
+<node CREATED="1539682347733" ID="ID_380634293" MODIFIED="1539682347733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_8159840717169295025.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539682110481" ID="ID_1419493783" MODIFIED="1539682111737" TEXT="UML">
+<node CREATED="1539682112153" MODIFIED="1539682112153">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_3456234638052382531.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1539577301937" FOLDED="true" ID="ID_1245961888" MODIFIED="1539683635147" TEXT="Mediator.">
 <node CREATED="1539590512088" ID="ID_1568064087" MODIFIED="1539590512088">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -336,9 +614,18 @@
 </node>
 <node CREATED="1539577301938" ID="ID_714897895" MODIFIED="1539577301938" TEXT="Memento."/>
 <node CREATED="1539577301938" ID="ID_743630046" MODIFIED="1539577301938" TEXT="Null Object."/>
-<node CREATED="1539577301939" FOLDED="true" ID="ID_831382014" MODIFIED="1539657852994" TEXT="Observer.">
-<node CREATED="1539657815257" ID="ID_768929238" MODIFIED="1539657819487" TEXT="Event and notification"/>
-<node CREATED="1539657850450" MODIFIED="1539657850450">
+<node CREATED="1539577301939" FOLDED="true" ID="ID_831382014" MODIFIED="1539680080313" TEXT="Observer.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539676328063" ID="ID_157582597" MODIFIED="1539676333775" TEXT="Purpose">
+<node CREATED="1539677238353" ID="ID_511242234" MODIFIED="1539677261360" TEXT="Ki&#x1ec3;m tra t&#xec;nh tr&#x1ea1;ng login khi c&#xf3; 1 ng&#x1b0;&#x1edd;i &#x111;&#x103;ng nh&#x1ead;p"/>
+<node CREATED="1539677261682" ID="ID_1883947031" MODIFIED="1539677267625" TEXT="Th&#xf4;ng b&#xe1;o khi c&#xf3; b&#x1ea5;t c&#x1ee9; ai &#x111;&#x103;ng nh&#x1ead;p"/>
+<node CREATED="1539657815257" ID="ID_768929238" MODIFIED="1539676376372" TEXT="let several observer objects to be notified when subject object is changed"/>
+<node CREATED="1539676382408" ID="ID_358329170" MODIFIED="1539676398344" TEXT="Each Observer register subject">
+<node CREATED="1539676399889" ID="ID_750289736" MODIFIED="1539676402696" TEXT="Change occurs">
+<node CREATED="1539676405156" ID="ID_999696775" MODIFIED="1539676412396" TEXT="subject noified them"/>
+</node>
+</node>
+<node CREATED="1539657850450" ID="ID_1321127361" MODIFIED="1539657850450">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -346,14 +633,85 @@
   <body>
     <img src="Design Pattern_2539819079157944805.jpeg" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1539676421362" ID="ID_1649353053" MODIFIED="1539676422447" TEXT="UML">
+<node CREATED="1539676690959" MODIFIED="1539676690959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_6696606382065540873.jpeg" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+<node COLOR="#072cf6" CREATED="1539676764090" ID="ID_875043858" MODIFIED="1539677153860" TEXT="Sample code">
+<node COLOR="#072cf6" CREATED="1539677137433" ID="ID_1473366593" MODIFIED="1539677156993" TEXT="Later due to complicated sample"/>
+</node>
+</node>
 <node CREATED="1539577301939" ID="ID_1653998153" MODIFIED="1539577301939" TEXT="Specification."/>
 <node CREATED="1539577301940" ID="ID_1160504789" MODIFIED="1539577301940" TEXT="State."/>
-<node CREATED="1539577301940" ID="ID_1131556056" MODIFIED="1539577301940" TEXT="Strategy."/>
-<node CREATED="1539577301940" ID="ID_1833775" MODIFIED="1539577301940" TEXT="Template Method."/>
+<node CREATED="1539577301940" FOLDED="true" ID="ID_1131556056" MODIFIED="1539674429770" TEXT="Strategy.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539671932186" ID="ID_794243594" MODIFIED="1539671936922" TEXT="Purpose">
+<node CREATED="1539672062337" ID="ID_1999029355" MODIFIED="1539672433587" TEXT="get specific function out of object">
+<node CREATED="1539672435977" ID="ID_1415145247" MODIFIED="1539672448736" TEXT="Create set of method to do this function"/>
+<node CREATED="1539672451505" ID="ID_790258642" MODIFIED="1539672468401" TEXT="Select in set which one is necessary later to use"/>
+</node>
+</node>
+<node CREATED="1539672478769" ID="ID_678801884" MODIFIED="1539672480561" TEXT="UML">
+<node CREATED="1539672784891" MODIFIED="1539672784891">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_3925819464141795417.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539672490521" ID="ID_1562238960" MODIFIED="1539672492216" TEXT="Sample code">
+<node CREATED="1539672811905" ID="ID_1113111653" MODIFIED="1539672860808" TEXT="Create class Strategy"/>
+<node CREATED="1539672861329" ID="ID_167901930" MODIFIED="1539672872321" TEXT="each algorithm is object inherit from strategy"/>
+<node CREATED="1539672906617" ID="ID_723491590" MODIFIED="1539672931097" TEXT="Context will set, get, use algorithm of Strategy"/>
+<node CREATED="1539672931818" ID="ID_1093443126" MODIFIED="1539672948433" TEXT="main">
+<node CREATED="1539672948986" ID="ID_466883272" MODIFIED="1539672959154" TEXT="Create object with each algorithm"/>
+<node CREATED="1539672959458" ID="ID_873889610" MODIFIED="1539672988948" TEXT="Context set those object and call algorithm of them"/>
+</node>
+</node>
+</node>
+<node CREATED="1539577301940" FOLDED="true" ID="ID_1833775" MODIFIED="1539683637212" TEXT="Template Method.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539678986937" FOLDED="true" ID="ID_314379561" MODIFIED="1539681781048" TEXT="Purpose">
+<node CREATED="1539678989609" ID="ID_365664274" MODIFIED="1539678996387" TEXT="lets subclasses redefine the steps involved in creating an object"/>
+<node CREATED="1539679260481" ID="ID_1944614946" MODIFIED="1539680780112" TEXT="Subclass inherit and redefine for suitable with it purpose"/>
+</node>
+<node CREATED="1539680746224" FOLDED="true" ID="ID_198563603" MODIFIED="1539680752722" TEXT="UML">
+<node CREATED="1539680749378" MODIFIED="1539680749378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_1749891314246424613.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1539680782457" ID="ID_713567947" MODIFIED="1539680784266" TEXT="Sample code">
+<node CREATED="1539680785792" ID="ID_1872535609" MODIFIED="1539680852425" TEXT="create abstract template class with method go()"/>
+<node CREATED="1539680799305" ID="ID_978070001" MODIFIED="1539680844248" TEXT="Create automativerobot extend from template"/>
+<node CREATED="1539680818089" ID="ID_1631602534" MODIFIED="1539680831354" TEXT="Update method that we want"/>
+<node CREATED="1539680974977" ID="ID_1745156773" MODIFIED="1539680979547" TEXT="Final just call go()"/>
+</node>
+</node>
 <node CREATED="1539577301941" ID="ID_1016508329" MODIFIED="1539577315617" TEXT="Visitor"/>
 </node>
 <node CREATED="1539577318562" ID="ID_1384716198" MODIFIED="1539577325346" TEXT="4 m&#x1eab;u m&#x1edb;i">
@@ -364,8 +722,43 @@
 </node>
 </node>
 <node CREATED="1539586806563" ID="ID_373808617" MODIFIED="1539586811383" TEXT="23 standard patterns"/>
+<node CREATED="1539672701601" ID="ID_361248880" MODIFIED="1539672702402" TEXT="https://sourcemaking.com/design_patterns/strategy/cpp/1"/>
 </node>
-<node CREATED="1539577642178" ID="ID_1588269181" MODIFIED="1539577664444" POSITION="left" TEXT="Note 3 points">
+<node CREATED="1539683553448" ID="ID_1301140419" MODIFIED="1539683568260" POSITION="left" TEXT="Ph&#xe2;n lo&#x1ea1;i theo m&#x1ee5;c &#x111;&#xed;ch s&#x1eed; d&#x1ee5;ng">
+<node CREATED="1539683574515" ID="ID_359260545" MODIFIED="1539683579351" TEXT="Put plan into action">
+<node CREATED="1539577301940" FOLDED="true" ID="ID_593585808" MODIFIED="1539674429770" TEXT="Strategy.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539671932186" ID="ID_1706823791" MODIFIED="1539671936922" TEXT="Purpose">
+<node CREATED="1539672062337" ID="ID_1970573904" MODIFIED="1539672433587" TEXT="get specific function out of object">
+<node CREATED="1539672435977" ID="ID_1279161771" MODIFIED="1539672448736" TEXT="Create set of method to do this function"/>
+<node CREATED="1539672451505" ID="ID_485489798" MODIFIED="1539672468401" TEXT="Select in set which one is necessary later to use"/>
+</node>
+</node>
+<node CREATED="1539672478769" ID="ID_1021240544" MODIFIED="1539672480561" TEXT="UML">
+<node CREATED="1539672784891" MODIFIED="1539672784891">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Design Pattern_3925819464141795417.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1539672490521" ID="ID_955991790" MODIFIED="1539672492216" TEXT="Sample code">
+<node CREATED="1539672811905" ID="ID_1640112497" MODIFIED="1539672860808" TEXT="Create class Strategy"/>
+<node CREATED="1539672861329" ID="ID_897859997" MODIFIED="1539672872321" TEXT="each algorithm is object inherit from strategy"/>
+<node CREATED="1539672906617" ID="ID_475527608" MODIFIED="1539672931097" TEXT="Context will set, get, use algorithm of Strategy"/>
+<node CREATED="1539672931818" ID="ID_1776290436" MODIFIED="1539672948433" TEXT="main">
+<node CREATED="1539672948986" ID="ID_1363228583" MODIFIED="1539672959154" TEXT="Create object with each algorithm"/>
+<node CREATED="1539672959458" ID="ID_1177615355" MODIFIED="1539672988948" TEXT="Context set those object and call algorithm of them"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1539577642178" FOLDED="true" ID="ID_1588269181" MODIFIED="1539683648756" POSITION="left" TEXT="Note 3 points">
 <node CREATED="1539577671099" ID="ID_1239263303" MODIFIED="1539577694124" TEXT="V&#x1ea5;n &#x111;&#x1ec1; m&#xe0; design pattern &#x111;&#xf3; gi&#x1ea3;i quy&#x1ebf;t"/>
 <node CREATED="1539577671100" ID="ID_1341913188" MODIFIED="1539577696921" TEXT="S&#x1a1; &#x111;&#x1ed3; UML m&#xf4; t&#x1ea3; design pattern"/>
 <node CREATED="1539577671100" ID="ID_1440982543" MODIFIED="1539577701186" TEXT="Code minh h&#x1ecd;a"/>
