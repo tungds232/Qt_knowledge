@@ -116,7 +116,8 @@
 <node CREATED="1539325055116" ID="ID_322998648" MODIFIED="1539325101211" TEXT="Child widget auto appear inside parent widget"/>
 </node>
 <node CREATED="1539325421085" ID="ID_751651442" MODIFIED="1539325426805" TEXT="Subclassing QWidget">
-<node CREATED="1539325530020" ID="ID_1543770102" MODIFIED="1539325542209" TEXT="Slit code in different class"/>
+<node CREATED="1539325530020" ID="ID_1543770102" MODIFIED="1539763327138" TEXT="Split code in different class"/>
+<node CREATED="1539764874954" ID="ID_148294235" MODIFIED="1539764899136" TEXT="Put all object inside this class as attribute"/>
 </node>
 <node CREATED="1539317321642" ID="ID_1117970568" LINK="https://wiki.qt.io/Qt_for_Beginners" MODIFIED="1539317321642" TEXT="https://wiki.qt.io/Qt_for_Beginners"/>
 </node>

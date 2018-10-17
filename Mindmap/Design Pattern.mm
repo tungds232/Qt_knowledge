@@ -218,12 +218,11 @@
   <body>
     <img src="Design Pattern_7964755322996160875.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1539577153452" FOLDED="true" ID="ID_1375418942" MODIFIED="1539676172170" TEXT="Factory Method.">
+<node CREATED="1539577153452" FOLDED="true" ID="ID_1375418942" MODIFIED="1539746541508" TEXT="Factory Method.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539674551537" ID="ID_1171709380" MODIFIED="1539674555187" TEXT="Purpose">
 <node CREATED="1539674560298" ID="ID_1846423176" MODIFIED="1539674681652" TEXT="Create and extend object"/>
@@ -239,8 +238,7 @@
   <body>
     <img src="Design Pattern_1069579384856583823.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539675679874" ID="ID_19464220" MODIFIED="1539675681344" TEXT="Code">
@@ -351,8 +349,7 @@
   <body>
     <img src="Design Pattern_1908273974737994733.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539673636209" ID="ID_286079618" MODIFIED="1539673642885" TEXT="Class adapter">
@@ -364,8 +361,7 @@
   <body>
     <img src="Design Pattern_9088912121895790290.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -390,8 +386,7 @@
   <body>
     <img src="Design Pattern_2789487347384526786.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -411,8 +406,7 @@
   <body>
     <img src="Design Pattern_6965962126537078157.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539674809385" ID="ID_1644821104" MODIFIED="1539674812467" TEXT="Sample code">
@@ -437,8 +431,7 @@
   <body>
     <img src="Design Pattern_462985310802338967.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539663467497" ID="ID_704673242" MODIFIED="1539663468262" TEXT="How">
@@ -539,8 +532,7 @@
   <body>
     <img src="Design Pattern_7896664752962520057.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -553,8 +545,7 @@
   <body>
     <img src="Design Pattern_6968060348924964218.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539677807809" ID="ID_1655582822" MODIFIED="1539677810259" TEXT="Sample code">
@@ -581,8 +572,7 @@
   <body>
     <img src="Design Pattern_8159840717169295025.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539682110481" ID="ID_1419493783" MODIFIED="1539682111737" TEXT="UML">
@@ -594,8 +584,7 @@
   <body>
     <img src="Design Pattern_3456234638052382531.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -645,8 +634,7 @@
   <body>
     <img src="Design Pattern_6696606382065540873.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#072cf6" CREATED="1539676764090" ID="ID_875043858" MODIFIED="1539677153860" TEXT="Sample code">
@@ -672,8 +660,7 @@
   <body>
     <img src="Design Pattern_3925819464141795417.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539672490521" ID="ID_1562238960" MODIFIED="1539672492216" TEXT="Sample code">
@@ -701,8 +688,7 @@
   <body>
     <img src="Design Pattern_1749891314246424613.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1539680782457" ID="ID_713567947" MODIFIED="1539680784266" TEXT="Sample code">
@@ -768,6 +754,9 @@
 <node CREATED="1539585058702" ID="ID_613089265" MODIFIED="1539585068217" TEXT="C&#xe1;c design pattern th&#x1b0;&#x1edd;ng ph&#x1ed1;i h&#x1ee3;p v&#x1edb;i nhau khi &#xe1;p d&#x1ee5;ng"/>
 <node CREATED="1539585090722" ID="ID_933515169" MODIFIED="1539585098922" TEXT="Th&#x1ea3;o lu&#x1ead;n, xem m&#xe3; ngu&#x1ed3;n v&#xe0; c&#xe1;ch v&#x1ead;n d&#x1ee5;ng"/>
 </node>
+</node>
+<node CREATED="1539746730942" ID="ID_1124767592" MODIFIED="1539746736490" POSITION="left" TEXT="Th&#x1eed; &#x111;&#x1ecd;c c&#xe1;i n&#xe0;y cho d&#x1ec5; n&#xe8;">
+<node CREATED="1539746737091" ID="ID_243625409" MODIFIED="1539746737675" TEXT="https://lttqstudy.wordpress.com/2015/12/21/cac-mau-design-pattern-tong-hop/"/>
 </node>
 </node>
 </map>
