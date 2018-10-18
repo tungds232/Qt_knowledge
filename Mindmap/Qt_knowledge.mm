@@ -119,6 +119,51 @@
 <node CREATED="1539325530020" ID="ID_1543770102" MODIFIED="1539763327138" TEXT="Split code in different class"/>
 <node CREATED="1539764874954" ID="ID_148294235" MODIFIED="1539764899136" TEXT="Put all object inside this class as attribute"/>
 </node>
+<node CREATED="1539768349570" ID="ID_1026781896" MODIFIED="1539854544620" TEXT="Signal and slot (respond to an event)">
+<node CREATED="1539768355750" ID="ID_692111410" MODIFIED="1539768367566" TEXT="Inpired by observer pattern"/>
+<node CREATED="1539768367972" FOLDED="true" ID="ID_1166248251" MODIFIED="1539853684428" TEXT="Reduce boilerplate code">
+<node CREATED="1539768399646" ID="ID_331682303" MODIFIED="1539768407007" TEXT="Write code again and again by hand"/>
+<node CREATED="1539853670056" ID="ID_1441587779" MODIFIED="1539853670056" TEXT="&quot;boilerplate code&quot; is any seemingly repetitive code that shows up again and again in order to get some result that seems like it ought to be much simpler."/>
+</node>
+<node CREATED="1539853711425" ID="ID_1954379557" MODIFIED="1539853712849" TEXT="Example">
+<node CREATED="1539853713441" ID="ID_225447241" MODIFIED="1539853721319" TEXT="Button click, menu show up"/>
+</node>
+<node CREATED="1539768415711" ID="ID_72892532" MODIFIED="1539768417093" TEXT="signal">
+<node CREATED="1539768417591" ID="ID_978883083" MODIFIED="1539768438109" TEXT="message that object can send, most of time inform the status change"/>
+</node>
+<node CREATED="1539768528391" ID="ID_1932803923" MODIFIED="1539768529316" TEXT="slot">
+<node CREATED="1539768530215" ID="ID_1289990575" MODIFIED="1539768545638" TEXT="function that used to accept and respond to a signal"/>
+</node>
+<node CREATED="1539768943135" ID="ID_1328199840" MODIFIED="1539768949341" TEXT="Transmitting information">
+<node CREATED="1539853935772" ID="ID_1086880237" MODIFIED="1539853957991" TEXT="Signal &amp; Slot have the same type of parameter"/>
+</node>
+<node CREATED="1539854013156" ID="ID_1072714898" MODIFIED="1539854014953" TEXT="Feature">
+<node CREATED="1539854016547" ID="ID_1164076232" MODIFIED="1539854024215" TEXT="Signal can connected to several slots"/>
+<node CREATED="1539854024628" ID="ID_297250357" MODIFIED="1539854034106" TEXT="Many signal can be connected to a slots"/>
+<node CREATED="1539854040612" ID="ID_1918198291" MODIFIED="1539854051307" TEXT="signal -&gt; connect -&gt; signal : signal relaying">
+<node CREATED="1539854058036" ID="ID_913137897" MODIFIED="1539854067253" TEXT="2nd signal is sent if 1st signal is sent"/>
+</node>
+</node>
+</node>
+<node CREATED="1539855629611" ID="ID_7661707" MODIFIED="1539855635918" TEXT="Technical aspect">
+<node CREATED="1539855636521" ID="ID_1881582778" MODIFIED="1539856078354" TEXT="Meta Object system">
+<node CREATED="1539856239834" ID="ID_1384135871" MODIFIED="1539856245859" TEXT="Qt use meta object compiler"/>
+<node CREATED="1539856082922" ID="ID_1186668751" MODIFIED="1539856238637" TEXT="Deal with thing pure C++ cannot">
+<node CREATED="1539856090174" ID="ID_1350202534" MODIFIED="1539856110493" TEXT="Introspection: exam a type at run-tim"/>
+<node CREATED="1539856112107" ID="ID_892051538" MODIFIED="1539856121623" TEXT="Asynchronous function calls"/>
+</node>
+<node CREATED="1539856134746" ID="ID_418198787" MODIFIED="1539856147527" TEXT="Code already include signal and slot">
+<node CREATED="1539856156092" ID="ID_1266303531" MODIFIED="1539856162043" TEXT="retrieve infomation from class"/>
+</node>
+</node>
+<node CREATED="1539856170570" ID="ID_962377181" MODIFIED="1539856175343" TEXT="Important macros">
+<node CREATED="1539856181066" ID="ID_13149963" MODIFIED="1539856185818" TEXT="Q_OBJECT">
+<node CREATED="1539856249245" ID="ID_770402737" MODIFIED="1539856285568" TEXT="The meta object compiler will translate Qt syntax like &quot;connect&quot;, &quot;signal&quot; ... to regular C++ syntax"/>
+<node CREATED="1539856286290" ID="ID_1212204500" MODIFIED="1539856323939" TEXT="So need specify Q_OBJECT macro in header of class definition to use such syntax"/>
+<node CREATED="1539856498938" ID="ID_528226083" MODIFIED="1539856534695" TEXT="Macro convert method signature to string (signal) and compare with one store in meta-object (slot)"/>
+</node>
+</node>
+</node>
 <node CREATED="1539317321642" ID="ID_1117970568" LINK="https://wiki.qt.io/Qt_for_Beginners" MODIFIED="1539317321642" TEXT="https://wiki.qt.io/Qt_for_Beginners"/>
 </node>
 <node CREATED="1539325379909" ID="ID_624971345" MODIFIED="1539325381230" POSITION="right" TEXT="Others">

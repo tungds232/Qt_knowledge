@@ -202,14 +202,14 @@
 <node COLOR="#ff0003" CREATED="1539577154434" ID="ID_897843293" MODIFIED="1539673096217" TEXT="Gi&#xfa;p trong vi&#x1ec7;c kh&#x1edf;i t&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng ( m&#xe0; kh&#xf4;ng nh&#xec;n th&#x1ea5;y t&#x1eeb; kh&#xf3;a new)"/>
 <node CREATED="1539577179194" ID="ID_1972854664" MODIFIED="1539577185401" TEXT="9 m&#x1eab;u design">
 <node CREATED="1539577153451" ID="ID_1062778600" MODIFIED="1539577153451" TEXT="Abstract Factory."/>
-<node CREATED="1539577153452" ID="ID_817208056" MODIFIED="1539678409002" TEXT="Builder.">
+<node CREATED="1539577153452" FOLDED="true" ID="ID_817208056" MODIFIED="1539834487461" TEXT="Builder.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1539681108457" FOLDED="true" ID="ID_898092502" MODIFIED="1539681788497" TEXT="Purpose">
+<node CREATED="1539681108457" ID="ID_898092502" MODIFIED="1539830621279" TEXT="Purpose">
 <node CREATED="1539681488841" ID="ID_1422230083" MODIFIED="1539681504584" TEXT="T&#x1ea1;o c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng ph&#x1ee9;c t&#x1ea1;p th&#xf4;ng qua c&#xe2;u l&#x1ec7;nh &#x111;&#x1a1;n gi&#x1ea3;n"/>
 <node CREATED="1539681505250" ID="ID_1551274972" MODIFIED="1539681696671" TEXT="Vd X&#xe2;y ph&#xf2;ng, T&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng x&#xe2;y ph&#xf2;ng v&#x1edb;i &#x111;&#xe2;y &#x111;&#x1ee7; ch&#x1ee9;c n&#x103;ng."/>
 <node CREATED="1539681650873" ID="ID_1086732901" MODIFIED="1539681711631" TEXT="Sau &#x111;&#xf3; x&#xe2;y ph&#xf2;ng ng&#x1ee7; hay ph&#xf2;ng kh&#xe1;ch ch&#x1ec9; c&#x1ea7;n &quot;d&#x1ef1;a&quot; v&#xe0;o &#x111;&#xf3;"/>
 </node>
-<node CREATED="1539681114816" FOLDED="true" ID="ID_595465923" MODIFIED="1539681672433" TEXT="UML">
+<node CREATED="1539681114816" ID="ID_595465923" MODIFIED="1539830636673" TEXT="UML">
 <node CREATED="1539681116487" MODIFIED="1539681116487">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -297,7 +297,7 @@
 <node CREATED="1539577196250" ID="ID_326765291" MODIFIED="1539577203984" TEXT="Nh&#xf3;m c&#x1ea5;u tr&#xfa;c (Structural)">
 <node COLOR="#ff0003" CREATED="1539577206810" ID="ID_1611259358" MODIFIED="1539673091917" TEXT="Gi&#xfa;p thi&#x1ebf;p l&#x1ead;p, &#x111;&#x1ecb;nh ngh&#x129;a quan h&#x1ec7; gi&#x1eef;a c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng"/>
 <node CREATED="1539577224538" ID="ID_1183176530" MODIFIED="1539577229617" TEXT="11 m&#x1eab;u design">
-<node CREATED="1539577230044" FOLDED="true" ID="ID_1390288537" MODIFIED="1539673784497" TEXT="Adapter/ Wrapper.">
+<node CREATED="1539577230044" ID="ID_1390288537" MODIFIED="1539834489420" TEXT="Adapter/ Wrapper.">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1539663687980" ID="ID_1994475336" MODIFIED="1539663689609" TEXT="Purpose">
 <node CREATED="1539656859025" ID="ID_105433463" MODIFIED="1539663682598" TEXT="Code upgrade or new requirement, use new object that have some different with old one"/>

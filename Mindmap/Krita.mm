@@ -75,6 +75,10 @@
 </node>
 <node CREATED="1539597256211" ID="ID_1347674752" MODIFIED="1539597257519" TEXT="Build">
 <node CREATED="1539597266777" ID="ID_516318552" MODIFIED="1539597510297" TEXT="Error note">
+<node CREATED="1539828032956" ID="ID_377969244" MODIFIED="1539828049474" TEXT="It&apos;s notice in Preparation of instruction">
+<node CREATED="1539828067645" ID="ID_239263888" LINK="https://community.kde.org/Krita/linuxbuild" MODIFIED="1539828067645" TEXT="https://community.kde.org/Krita/linuxbuild"/>
+</node>
+<node CREATED="1539828052605" FOLDED="true" ID="ID_1448847107" MODIFIED="1539857486006" TEXT="Preparation">
 <node CREATED="1539597258081" ID="ID_1390785442" MODIFIED="1539597261641" TEXT="install cmake">
 <node CREATED="1539597586594" ID="ID_870480410" MODIFIED="1539597592280" TEXT="sudo apt-get install cmake"/>
 </node>
@@ -96,6 +100,130 @@
 <node CREATED="1539599324134" ID="ID_1292913503" MODIFIED="1539599325454" TEXT="https://cmake.org/download/"/>
 <node CREATED="1539599331918" ID="ID_52111089" MODIFIED="1539599333256" TEXT="https://anglehit.com/how-to-install-the-latest-version-of-cmake-via-command-line/"/>
 </node>
+<node CREATED="1539769445373" ID="ID_1678330761" MODIFIED="1539769446526" TEXT="Could not find a package configuration file provided by &quot;Qt5Svg&quot; with any">
+<node CREATED="1539826565309" ID="ID_1524585184" MODIFIED="1539826571811" TEXT="sudo apt-get install libqt5svg5-dev"/>
+<node CREATED="1539769618413" ID="ID_1443010365" MODIFIED="1539769619942" TEXT="or install libqt5svg5 + libqt5svg5-dev + libqt5svg5-private-dev"/>
+<node CREATED="1539826577885" FOLDED="true" ID="ID_794092142" MODIFIED="1539826616999" TEXT="reference">
+<node CREATED="1539769481598" ID="ID_1053374821" MODIFIED="1539769486968" TEXT="sudo apt-get install git build-essential cmake qt5-default qtscript5-dev libssl-dev qttools5-dev qttools5-dev-tools qtmultimedia5-dev libqt5svg5-dev libqt5webkit5-dev libsdl2-dev libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack-jackd2-dev libxrandr-dev libqt5xmlpatterns5-dev libqt5xmlpatterns5"/>
+</node>
+</node>
+<node CREATED="1539769603509" ID="ID_266878692" MODIFIED="1539769604272" TEXT="Could not find a package configuration file provided by &quot;Qt5X11Extras&quot;">
+<node CREATED="1539769653133" ID="ID_637579193" MODIFIED="1539769660774" TEXT="sudo apt-get install libqt5x11*"/>
+</node>
+<node CREATED="1539769681758" ID="ID_1405076829" MODIFIED="1539769682859" TEXT="Could NOT find XCB_ATOM">
+<node CREATED="1539826208077" ID="ID_142508289" MODIFIED="1539826209674" TEXT="sudo apt-get install libxcb-util-dev"/>
+</node>
+<node CREATED="1539769689597" ID="ID_313109727" MODIFIED="1539769690588" TEXT="Could NOT find XCB">
+<node CREATED="1539769772261" ID="ID_877221403" MODIFIED="1539769777606" TEXT="sudo apt-get install xcb"/>
+</node>
+<node CREATED="1539769698293" ID="ID_426628314" MODIFIED="1539769830785" TEXT="Could NOT find PNG">
+<node CREATED="1539770016674" ID="ID_1519933553" MODIFIED="1539770022669" TEXT="sudo apt-get install libpng-dev"/>
+</node>
+<node CREATED="1539771206686" ID="ID_1613021601" MODIFIED="1539771221348" TEXT="Could NOT find GIF">
+<node CREATED="1539771216439" ID="ID_375192186" MODIFIED="1539771226132" TEXT="sudo apt-get install libgif-dev"/>
+</node>
+<node CREATED="1539771206686" ID="ID_1620804404" MODIFIED="1539771239420" TEXT="Could NOT find TIFF">
+<node CREATED="1539771216439" ID="ID_1533626561" MODIFIED="1539771243583" TEXT="sudo apt-get install libtiff-dev"/>
+</node>
+<node CREATED="1539772609503" ID="ID_1810863275" MODIFIED="1539772619607" TEXT="gsl is not installed">
+<node CREATED="1539772615345" ID="ID_396589497" MODIFIED="1539772730390" TEXT="sudo apt-get install libgsl-dev">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1539826282292" ID="ID_502102704" MODIFIED="1539826288403" TEXT="Count not find LibRaw">
+<node CREATED="1539826372372" ID="ID_1679834580" MODIFIED="1539826379660" TEXT="sudo apt-get install libraw-dev"/>
+</node>
+<node CREATED="1539826306716" ID="ID_1993647782" MODIFIED="1539826312143" TEXT="OpenColorIO NOT found">
+<node CREATED="1539826479638" ID="ID_99244490" MODIFIED="1539826847814" TEXT="sudo apt-get install libopencolorio-dev"/>
+</node>
+<node CREATED="1539826258780" ID="ID_309761096" MODIFIED="1539826269123" TEXT="no package">
+<node CREATED="1539826269581" ID="ID_1928147065" MODIFIED="1539826269581" TEXT="libheif">
+<node CREATED="1539826719710" ID="ID_1316919497" MODIFIED="1539826726300" TEXT="sudo apt-get install libhef-dev"/>
+</node>
+<node CREATED="1539826271173" ID="ID_1695327022" MODIFIED="1539826273829" TEXT="libraw">
+<node CREATED="1539826719710" ID="ID_1552765287" MODIFIED="1539826734779" TEXT="sudo apt-get install libraw-dev"/>
+</node>
+<node CREATED="1539826274477" ID="ID_132929975" MODIFIED="1539826277500" TEXT="libraw_r">
+<node CREATED="1539826719710" ID="ID_1431470590" MODIFIED="1539826734779" TEXT="sudo apt-get install libraw-dev"/>
+</node>
+<node CREATED="1539826302429" ID="ID_1768681288" MODIFIED="1539826304258" TEXT="fftw3">
+<node CREATED="1539826719710" ID="ID_1188132899" MODIFIED="1539826765788" TEXT="sudo apt-get install libfftw3-dev"/>
+</node>
+</node>
+<node CREATED="1539826895989" ID="ID_764601960" MODIFIED="1539826896459" TEXT="ModuleNotFoundError: No module named &apos;sipconfig">
+<node CREATED="1539826896936" ID="ID_101537247" MODIFIED="1539826903531" TEXT="sudo apt-get install sip-dev"/>
+</node>
+<node CREATED="1539827101717" ID="ID_1886526629" MODIFIED="1539827223982" TEXT="ModuleNotFoundError: No module named &apos;pyqt5">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539827162557" ID="ID_1574735427" MODIFIED="1539827164486" TEXT="Python3">
+<node CREATED="1539827103469" ID="ID_702079921" MODIFIED="1539827103469" TEXT="sudo apt-get install python3-pyqt5"/>
+</node>
+<node CREATED="1539827168877" ID="ID_1602925866" MODIFIED="1539827171021" TEXT="Python2">
+<node CREATED="1539827157341" ID="ID_265549610" MODIFIED="1539827160587" TEXT="sudo apt-get install python-pyqt5 "/>
+</node>
+</node>
+<node CREATED="1539827222516" ID="ID_397563590" MODIFIED="1539827223617" TEXT="Could NOT find Eigen3">
+<node CREATED="1539827280426" ID="ID_677225917" MODIFIED="1539827295254" TEXT="sudo apt-get install libeigen3-dev">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1539827316301" ID="ID_447398201" MODIFIED="1539827331598" TEXT="Could NOT find Exiv2">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539827280426" ID="ID_1892643694" MODIFIED="1539827351113" TEXT="sudo apt-get install libexiv2-dev">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1539827504109" ID="ID_1922541699" MODIFIED="1539827505226" TEXT="-- The following REQUIRED packages have not been found:   * Boost (required version &gt;= 1.55)">
+<node CREATED="1539827280426" ID="ID_452228984" MODIFIED="1539827629800" TEXT="sudo apt-get install libboost-all-dev">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1539827280426" ID="ID_784106867" MODIFIED="1539827547283" TEXT="sudo apt-get install libboost-dev">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1539831613069" ID="ID_1285447678" MODIFIED="1539831619879" TEXT="In building process">
+<node CREATED="1539831620316" ID="ID_1718826727" MODIFIED="1539831620918" TEXT="sip: Unable to find file &quot;QtCore/QtCoremod.sip&quot;"/>
+<node CREATED="1539837454556" ID="ID_1423285165" MODIFIED="1539837455211" TEXT="sip: Unable to find file &quot;QtWidgets/QtWidgetsmod.sip&quot; "/>
+<node CREATED="1539837456764" ID="ID_1874484404" MODIFIED="1539837472674" TEXT="Most of them is in: /usr/share/ship/pyQt4/Qt...">
+<node CREATED="1539831724610" ID="ID_522741361" MODIFIED="1539831724610" TEXT="sudo apt-get install python-qt4-dev"/>
+</node>
+<node CREATED="1539838521034" ID="ID_1834090524" MODIFIED="1539838531108" TEXT="Should use Python3 and Qt5, PyQt5"/>
+<node CREATED="1539838084765" ID="ID_536747222" MODIFIED="1539838108243" TEXT="Python3 qt">
+<node CREATED="1539838088083" MODIFIED="1539838088083" TEXT="pip3 install pyqt5"/>
+<node CREATED="1539838103894" ID="ID_25381760" LINK="http://pyqt.sourceforge.net/Docs/PyQt5/installation.html" MODIFIED="1539838113748" TEXT="http://pyqt.sourceforge.net/Docs/PyQt5/installation.html"/>
+<node CREATED="1539841402988" ID="ID_1182896073" MODIFIED="1539853057753" TEXT="Copy all source of Sip in PyQt5 to /usr/share/sip/PyQt5">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539841425236" ID="ID_1112298320" MODIFIED="1539841427252" TEXT="Solve issue"/>
+</node>
+</node>
+<node CREATED="1539841430644" ID="ID_1698516445" MODIFIED="1539841436258" TEXT="sip.h: No such file or directory">
+<node CREATED="1539841438411" ID="ID_91149277" MODIFIED="1539841445982" TEXT="sudo apt-get install python-sip-dev"/>
+</node>
+<node COLOR="#fa0208" CREATED="1539851347975" ID="ID_166506668" MODIFIED="1539851365624" TEXT="Start again">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1539856907839" ID="ID_370151180" MODIFIED="1539856914169" TEXT="Install latest sip version from source"/>
+<node CREATED="1539851465225" ID="ID_665917692" MODIFIED="1539851475068" TEXT="Install PyQt5 by source">
+<node CREATED="1539852514841" ID="ID_681216757" MODIFIED="1539853020490" TEXT="python configure.py --sip-module PyQt5.sip --no-tools">
+<node CREATED="1539852855115" ID="ID_1292895318" MODIFIED="1539853024153" TEXT="configure SIP to create a private copy of the sip module"/>
+<node CREATED="1539853026393" ID="ID_1754828052" MODIFIED="1539853059385" TEXT="But it for python 2">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1539852516369" ID="ID_385627114" MODIFIED="1539853016249" TEXT="python3 configure.py --sipdir /usr/share/sip/PyQt5"/>
+</node>
+<node CREATED="1539851368673" ID="ID_1424665087" MODIFIED="1539851463594" TEXT="Install python-qt5">
+<node CREATED="1539851395417" ID="ID_1707421647" MODIFIED="1539851396216" TEXT="sudo add-apt-repository universe"/>
+<node CREATED="1539851382201" ID="ID_581160331" MODIFIED="1539851394749" TEXT="sudo apt-get update"/>
+<node CREATED="1539851397873" ID="ID_164707678" MODIFIED="1539851443468" TEXT="sudo apt-get install python3-pyqt5"/>
+</node>
+<node CREATED="1539857321618" ID="ID_672428091" MODIFIED="1539857335371" TEXT="Yeah new error :&quot;()">
+<node CREATED="1539857349023" ID="ID_1572848941" MODIFIED="1539857349023" TEXT="/home/dstung/kritadev/src/krita/plugins/impex/heif/HeifError.h:25:10: fatal error: libheif/heif_cxx.h: No such file or directory">
+<node CREATED="1539857488722" ID="ID_734310824" MODIFIED="1539857496488" TEXT="sudo apt-get install libffi-dev"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1539597747552" ID="ID_158882533" MODIFIED="1539597750835" TEXT="build command">
 <node CREATED="1539597755727" ID="ID_348587870" MODIFIED="1539597760465" TEXT="cd build/"/>
@@ -106,6 +234,21 @@
 <node COLOR="#f6072a" CREATED="1539748900515" ID="ID_1708315161" MODIFIED="1539748936819" TEXT="Use Qt creator open file ">
 <node COLOR="#f6072a" CREATED="1539748923626" ID="ID_317692817" MODIFIED="1539748929572" TEXT="CMakeLists.txt"/>
 </node>
+</node>
+</node>
+<node CREATED="1539843806098" ID="ID_449112942" MODIFIED="1539843808188" POSITION="right" TEXT="PyQt">
+<node CREATED="1539844046010" ID="ID_733337903" MODIFIED="1539844106109" TEXT="set of Python v2 + v3 + Qt">
+<node CREATED="1539844107082" ID="ID_1508703794" MODIFIED="1539844114018" TEXT="Run all platform support by Qt"/>
+</node>
+<node CREATED="1539844120482" ID="ID_1944149087" MODIFIED="1539844129099" TEXT="PyQt5 support Qt v5"/>
+<node CREATED="1539844145174" ID="ID_865327805" MODIFIED="1539844149463" TEXT="Dual license">
+<node CREATED="1539844159474" ID="ID_814456480" MODIFIED="1539844164039" TEXT="GNU GPL v3"/>
+<node CREATED="1539844149970" ID="ID_1571586073" MODIFIED="1539844176698" TEXT="Riverbank Commercial License"/>
+<node CREATED="1539844189787" ID="ID_1348136578" MODIFIED="1539844198312" TEXT="Not available under PyQt"/>
+</node>
+<node CREATED="1539844268242" ID="ID_677602336" MODIFIED="1539844270943" TEXT="Why">
+<node CREATED="1539844272230" ID="ID_1020090009" MODIFIED="1539844285631" TEXT="Bring together Qt C++ &amp; Python"/>
+<node CREATED="1539844375610" ID="ID_348698866" MODIFIED="1539844385324" TEXT="Combine all advantages of Qt &amp; Python"/>
 </node>
 </node>
 <node CREATED="1539596446490" ID="ID_90229549" MODIFIED="1539596447322" POSITION="right" TEXT="Note"/>
@@ -211,8 +354,8 @@
 </node>
 </node>
 <node CREATED="1539745330155" ID="ID_137464164" MODIFIED="1539756617003" TEXT="Intro">
-<node CREATED="1539756632156" FOLDED="true" ID="ID_1104806379" MODIFIED="1539756644214" TEXT="API Krita">
-<node CREATED="1539745333902" FOLDED="true" ID="ID_1930153711" MODIFIED="1539756628460" TEXT="Krita is build around 2 core libraries">
+<node CREATED="1539756632156" ID="ID_1104806379" MODIFIED="1539846754383" TEXT="API Krita">
+<node CREATED="1539745333902" ID="ID_1930153711" MODIFIED="1539846759969" TEXT="Krita is build around 2 core libraries">
 <node CREATED="1539745385611" ID="ID_571484846" MODIFIED="1539745492165" TEXT="pigment lib">
 <node CREATED="1539745720051" ID="ID_1858043739" MODIFIED="1539745721706" TEXT="Abstract">
 <node CREATED="1539745396987" ID="ID_1903600813" MODIFIED="1539745460211" TEXT="colospaces">
