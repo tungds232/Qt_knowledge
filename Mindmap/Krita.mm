@@ -78,7 +78,7 @@
 <node CREATED="1539828032956" ID="ID_377969244" MODIFIED="1539828049474" TEXT="It&apos;s notice in Preparation of instruction">
 <node CREATED="1539828067645" ID="ID_239263888" LINK="https://community.kde.org/Krita/linuxbuild" MODIFIED="1539828067645" TEXT="https://community.kde.org/Krita/linuxbuild"/>
 </node>
-<node CREATED="1539828052605" FOLDED="true" ID="ID_1448847107" MODIFIED="1539857486006" TEXT="Preparation">
+<node CREATED="1539828052605" ID="ID_1448847107" MODIFIED="1539938871214" TEXT="Preparation">
 <node CREATED="1539597258081" ID="ID_1390785442" MODIFIED="1539597261641" TEXT="install cmake">
 <node CREATED="1539597586594" ID="ID_870480410" MODIFIED="1539597592280" TEXT="sudo apt-get install cmake"/>
 </node>
@@ -91,7 +91,7 @@
 <node CREATED="1539657180017" ID="ID_1298019705" MODIFIED="1539657181677" TEXT="sudo apt-get install python3-sphinx "/>
 <node CREATED="1539683913228" ID="ID_636238888" MODIFIED="1539683919876" TEXT="sudo apt-get install qttools5-dev-tools"/>
 <node CREATED="1539684003348" ID="ID_1350765887" MODIFIED="1539684011404" TEXT="sudo apt-get install qtbase5-dev"/>
-<node CREATED="1539684909801" FOLDED="true" ID="ID_121076346" MODIFIED="1539684918283" TEXT="KF5 miss">
+<node CREATED="1539684909801" FOLDED="true" ID="ID_121076346" MODIFIED="1539938882655" TEXT="KF5 miss">
 <node CREATED="1539684913652" ID="ID_439119411" MODIFIED="1539684913652" TEXT="kdoctools-dev kio-dev libdrm-dev libegl1-mesa-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libkf5archive-dev libkf5attica-dev libkf5auth-bin-dev libkf5auth-dev libkf5bookmarks-dev libkf5codecs-dev libkf5completion-dev libkf5config-bin-dev libkf5config-dev libkf5configwidgets-dev libkf5coreaddons-bin-dev libkf5coreaddons-dev libkf5crash-dev libkf5dbusaddons-dev libkf5globalaccel-dev libkf5guiaddons-dev libkf5i18n-dev libkf5iconthemes-dev libkf5itemmodels-dev libkf5itemviews-dev libkf5jobwidgets-dev libkf5jsapi5 libkf5khtml-dev libkf5kjs-dev libkf5newstuff-dev libkf5notifications-dev libkf5parts-dev libkf5service-dev libkf5solid-dev libkf5sonnet-dev libkf5textwidgets-dev libkf5wallet-dev libkf5widgetsaddons-dev libkf5windowsystem-dev libkf5xmlgui-dev libmirclient-dev libmircommon-dev libmircookie-dev libmircookie2 libpcre3-dev libpcre32-3 libpcrecpp0v5 libprotobuf-dev libpthread-stubs0-dev libqt5opengl5-dev libqt5scripttools5 libwayland-bin libwayland-dev libx11-dev libx11-doc libx11-xcb-dev libxau-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxdamage-dev libxdmcp-dev libxext-dev libxfixes-dev libxkbcommon-dev libxshmfence-dev libxxf86vm-dev mesa-common-dev qt5-qmake qtbase5-dev qtbase5-dev-tools qtscript5-dev x11proto-core-dev x11proto-damage-dev x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev x11proto-input-dev x11proto-kb-dev x11proto-xext-dev x11proto-xf86vidmode-dev xorg-sgml-doctools xtrans-dev zlib1g-dev camlp4 ecm icu-devtools ledit libcamlp4-ocaml-dev libexempi-dev libexempi3 libfindlib-ocaml libfindlib-ocaml-dev libgmp-dev libgmpxx4ldbl libgnutls-openssl27 libgnutls28-dev libgnutlsxx28 libicu-dev libidn11-dev libncurses5-dev libp11-kit-dev libpoppler-dev libpoppler-qt5-dev libqimageblitz-dev libtag1-dev libtaglib-ocaml libtaglib-ocaml-dev libtasn1-6-dev libtasn1-doc libtinfo-dev libwrap0-dev libxml2-dev libxslt1-dev libyaz4 libyaz4-dev nettle-dev ocaml-base-nox ocaml-compiler-libs ocaml-findlib ocaml-interp ocaml-nox"/>
 </node>
 </node>
@@ -220,6 +220,15 @@
 <node CREATED="1539857321618" ID="ID_672428091" MODIFIED="1539857335371" TEXT="Yeah new error :&quot;()">
 <node CREATED="1539857349023" ID="ID_1572848941" MODIFIED="1539857349023" TEXT="/home/dstung/kritadev/src/krita/plugins/impex/heif/HeifError.h:25:10: fatal error: libheif/heif_cxx.h: No such file or directory">
 <node CREATED="1539857488722" ID="ID_734310824" MODIFIED="1539857496488" TEXT="sudo apt-get install libffi-dev"/>
+</node>
+</node>
+</node>
+<node CREATED="1539924430923" ID="ID_1960789895" MODIFIED="1539924433534" TEXT="Careful">
+<node CREATED="1539924434517" ID="ID_450790389" MODIFIED="1539924478584" TEXT="Trong source c&#xf3; l&#x1b0;u l&#x1ea1;i 1 file cache v&#x1edb;i &#x111;&#x1ecb;nh d&#x1ea1;ng .xxx v&#xe0; git ignore file n&#xe0;y n&#xea;n n&#x1ebf;u ko x&#xf3;a file n&#xe0;y &#x111;i th&#xec; build l&#x1ea1;i v&#x1eab;n s&#x1ebd; g&#x1eb7;p l&#x1ed7;i cho d&#xf9; &#x111;&#xe3; update th&#x1b0; vi&#x1ec7;n">
+<node CREATED="1539924485037" ID="ID_1271831122" MODIFIED="1539924490145" TEXT="git status kh&#xf4;ng ph&#xe1;t hi&#x1ec7;n ra"/>
+<node CREATED="1539924510598" ID="ID_1013469663" MODIFIED="1539924519397" TEXT="T&#x1ed1;t nh&#x1ea5;t l&#xe0; backup source, r&#x1ed3;i x&#xf3;a h&#x1ebf;t &#x111;i copy v&#xf4; l&#x1ea1;i"/>
+<node CREATED="1539924526116" ID="ID_1458639369" MODIFIED="1539924541408" TEXT="C&#xf3; gi&#x1ea3;i ph&#xe1;t hay h&#x1a1;n l&#xe0; t&#xec;m ra file &#x111;&#xf3; v&#xe0; x&#xf3;a &#x111;i, nh&#x1b0;ng m&#xec;nh ko bi&#x1ebf;t n&#xf3; l&#xe0; file n&#xe0;o">
+<node CREATED="1539924545029" ID="ID_1644720667" MODIFIED="1539924558086" TEXT="file .user, c&#xf3; th&#x1ec3; ..."/>
 </node>
 </node>
 </node>

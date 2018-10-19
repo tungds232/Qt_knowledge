@@ -365,5 +365,36 @@
 </node>
 </node>
 </node>
+<node CREATED="1539919385188" ID="ID_1941196428" MODIFIED="1539919391354" POSITION="left" TEXT="Abstraction &amp; Interface">
+<node CREATED="1539919392165" ID="ID_757728490" MODIFIED="1539919410596" TEXT="Abstraction class">
+<node CREATED="1539919395004" ID="ID_882876555" MODIFIED="1539919496060" TEXT="Class cha cho c&#xe1;c class con c&#xf3; c&#xf9;ng b&#x1ea3;n ch&#x1ea5;t">
+<node CREATED="1539919496629" ID="ID_46611563" MODIFIED="1539919668968" TEXT="Vd: class cha &#x110;&#x1ed9;ng v&#xe2;t: Ch&#xf3;, m&#xe8;o, chim"/>
+<node CREATED="1539919510932" ID="ID_1917724073" MODIFIED="1539919527237" TEXT="Kh&#xe1;c v&#x1edb;i class cha ph&#x1b0;&#x1a1;ng ti&#x1ec7;n: Xe h&#x1a1;i, m&#xe1;y bay"/>
+</node>
+</node>
+<node CREATED="1539919540149" ID="ID_1844790284" MODIFIED="1539919907163" TEXT="Interface class">
+<node CREATED="1539919580541" ID="ID_494875837" MODIFIED="1539919592762" TEXT="G&#x1ed3;m t&#x1ead;p h&#x1ee3;p c&#x1ee7;a nhi&#x1ec1;u methods &#x111;&#x1ec3; &#x111;&#x1ea3;m nh&#x1ead;n 1 ch&#x1ee9;c n&#x103;ng n&#xe0;o &#x111;&#xf3;">
+<node CREATED="1539919627300" ID="ID_803147585" MODIFIED="1539919633735" TEXT="Vd Ch&#x1ee9;c n&#x103;ng bay">
+<node CREATED="1539919635373" ID="ID_905551417" MODIFIED="1539919643290" TEXT="c&#xf3; method l&#x1ea5;y &#x111;&#xe0;, c&#x1ea5;t c&#xe1;nh"/>
+</node>
+</node>
+<node CREATED="1539919544413" ID="ID_661186118" MODIFIED="1539919573255" TEXT="Ch&#x1ee9;c n&#x103;ng ho&#x1eb7;c plugin c&#xf3; th&#x1ec3; th&#xea;m v&#xe0;o b&#x1ea5;t c&#x1ee9; class n&#xe0;o">
+<node CREATED="1539919659045" ID="ID_1933726899" MODIFIED="1539919686570" TEXT="Chim c&#xf3; th&#x1ec3; d&#xf9;ng ch&#x1ee9;c n&#x103;ng bay"/>
+<node CREATED="1539919686871" ID="ID_1587392059" MODIFIED="1539919692222" TEXT="M&#xe1;y bay c&#x169;ng v&#x1ead;y"/>
+</node>
+</node>
+<node CREATED="1539919913833" FOLDED="true" ID="ID_1369521355" MODIFIED="1539919941639" TEXT="Image">
+<node CREATED="1539919540149" ID="ID_641881453" MODIFIED="1539919912322">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="../../Pictures/Screenshot%20from%202018-10-19%2010-30-36.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </map>
