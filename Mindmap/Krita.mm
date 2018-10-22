@@ -232,6 +232,11 @@
 </node>
 </node>
 </node>
+<node CREATED="1540200324384" ID="ID_1034462066" MODIFIED="1540200325758" TEXT="undefined reference to `heif_encoding_options_alloc&apos;">
+<node CREATED="1540200326458" ID="ID_35509930" MODIFIED="1540200336072" TEXT="Version libheif 1.1.0">
+<node CREATED="1540200336530" ID="ID_1031300819" MODIFIED="1540200342616" TEXT="Must update 1.3.0 solve this issue"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1539597747552" ID="ID_158882533" MODIFIED="1539597750835" TEXT="build command">
