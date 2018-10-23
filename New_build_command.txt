@@ -1,0 +1,4 @@
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt-get install libkf5archive-dev libkf5completion-dev libkf5widgetsaddons-dev libkf5guiaddons-dev libkf5itemmodels-dev libkf5itemviews-dev
+sudo apt-get install cmake python3-dev python3-pip python3-tk python3-lxml python3-six extra-cmake-modules python3-sphinx qttools5-dev-tools qtbase5-dev libqt5svg5-dev git build-essential cmake qt5-default qtscript5-dev libssl-dev qttools5-dev qttools5-dev-tools qtmultimedia5-dev libqt5svg5-dev libqt5webkit5-dev libsdl2-dev libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack-jackd2-dev libxrandr-dev libqt5xmlpatterns5-dev libqt5xmlpatterns5 libqt5x11* libxcb-util-dev xcb libpng-dev libgif-dev libtiff-dev libgsl-dev libraw-dev libopencolorio-dev libheif-dev libraw-dev libraw-dev libfftw3-dev sip-dev python3-pyqt5 python-pyqt5 libeigen3-dev libexiv2-dev libboost-all-dev libboost-dev python-qt4-dev python-sip-dev python3-pyqt5 libffi-dev
