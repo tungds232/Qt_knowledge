@@ -235,7 +235,14 @@
 <node CREATED="1540200324384" ID="ID_1034462066" MODIFIED="1540200325758" TEXT="undefined reference to `heif_encoding_options_alloc&apos;">
 <node CREATED="1540200326458" ID="ID_35509930" MODIFIED="1540200336072" TEXT="Version libheif 1.1.0">
 <node CREATED="1540200336530" ID="ID_1031300819" MODIFIED="1540200342616" TEXT="Must update 1.3.0 solve this issue"/>
+<node CREATED="1540200662753" ID="ID_1783121479" MODIFIED="1540200676954" TEXT="install libheif1-1.3.2-1+b1 too">
+<node CREATED="1540200793474" ID="ID_947648819" MODIFIED="1540200794550" TEXT="https://packages.debian.org/sid/libheif1"/>
 </node>
+<node CREATED="1540200777865" ID="ID_268933641" MODIFIED="1540200778666" TEXT="libx265-165"/>
+</node>
+</node>
+<node CREATED="1540257875460" ID="ID_1550457545" MODIFIED="1540257878253" TEXT="FATAL: You&apos;re trying to run krita from the build location. You can only run Krita from the installation location.">
+<node CREATED="1540257883543" ID="ID_423775119" MODIFIED="1540257903608" TEXT="Each CMakeLists.txt is a project. Change config so that executable out of build directory"/>
 </node>
 </node>
 </node>
