@@ -73,7 +73,7 @@
 <node CREATED="1539749046947" ID="ID_860306242" MODIFIED="1539749048994" TEXT="Link">
 <node CREATED="1539749049603" ID="ID_295860890" MODIFIED="1539749050310" TEXT="http://download.qt.io/official_releases/qt/5.11/5.11.2/"/>
 </node>
-<node CREATED="1539597256211" ID="ID_1347674752" MODIFIED="1539597257519" TEXT="Build">
+<node CREATED="1539597256211" FOLDED="true" ID="ID_1347674752" MODIFIED="1540879968633" TEXT="Build">
 <node CREATED="1539597266777" ID="ID_516318552" MODIFIED="1539597510297" TEXT="Error note">
 <node CREATED="1539828032956" ID="ID_377969244" MODIFIED="1539828049474" TEXT="It&apos;s notice in Preparation of instruction">
 <node CREATED="1539828067645" ID="ID_239263888" LINK="https://community.kde.org/Krita/linuxbuild" MODIFIED="1539828067645" TEXT="https://community.kde.org/Krita/linuxbuild"/>
@@ -243,6 +243,19 @@
 </node>
 <node CREATED="1540257875460" ID="ID_1550457545" MODIFIED="1540257878253" TEXT="FATAL: You&apos;re trying to run krita from the build location. You can only run Krita from the installation location.">
 <node CREATED="1540257883543" ID="ID_423775119" MODIFIED="1540257903608" TEXT="Each CMakeLists.txt is a project. Change config so that executable out of build directory"/>
+</node>
+</node>
+<node CREATED="1540865557252" ID="ID_121493685" MODIFIED="1540865561728" TEXT="New sourcecode">
+<node CREATED="1540865563984" ID="ID_1468797665" MODIFIED="1540865575936" TEXT="RuntimeError: the sip module implements API v12.0 to v12.4 but the PyKrita.krita module requires API v12.5&#x9; ">
+<node CREATED="1540865577972" ID="ID_1433721473" MODIFIED="1540865600085" TEXT="Exist a lot of version of sip and those version not new enough for PyQt5"/>
+<node CREATED="1540865616136" ID="ID_808053042" MODIFIED="1540865625054" TEXT="4.19.8 -&gt; API 12.4"/>
+<node CREATED="1540865600464" ID="ID_229874305" MODIFIED="1540865613424" TEXT="Removed all sip version, install newest version (4.19.13)"/>
+</node>
+<node CREATED="1540868667286" ID="ID_291069838" MODIFIED="1540868715947" TEXT="libav*.so.58: cannot open shared object fi le: No such file or directory">
+<node CREATED="1540868717039" ID="ID_73585256" MODIFIED="1540868754258" TEXT="copy from krita/inst/lib/x86_64-linux-gnu/ffmpeg/lib* krita/inst/lib/x86_64-linux-gnu/"/>
+</node>
+<node CREATED="1540868984981" ID="ID_1528868309" MODIFIED="1540869000626" TEXT="Unable to start Dr. Konqi">
+<node CREATED="1540868986342" ID="ID_1751849724" MODIFIED="1540868987800" TEXT="sudo apt-get install drkonqi"/>
 </node>
 </node>
 </node>
